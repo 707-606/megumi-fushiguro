@@ -33,12 +33,12 @@ header img {
     border-radius: 200px;
     width: 200px;
     height: 200px;
-    border: 10px solid red;
+    border: 10px solid rgb(233, 0, 0);
 }
 
 /** Headings **/
 header h1, h4{
-    color: #41d698; 
+    color: #5ad641; 
     margin-bottom: 30px;
 }
 
@@ -80,3 +80,95 @@ main img{
     margin-bottom: 10px;  
 }
 
+/** Quote **/
+.quote{
+    padding-top: 22px;
+    margin: 5px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(20, 194, 127);
+}
+
+blockquote span{
+    font-size: 30px;
+    color: rgb(29, 132, 192);
+}
+
+hr{
+    border-bottom: solid;
+    color: rgb(191,150,44);
+}
+
+/** Text **/
+
+h2{
+    margin-top: 50px;
+}
+
+h2, a{
+    color: #e00926;
+}
+
+a:hover{
+    color: rgb(33, 185, 41);
+}
+
+p.caption{
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* Footer */
+footer{
+    background-color: #1c4075;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(100, 135, 201);
+    opacity: .7;
+    background-color: transparent;
+}
+
+/********/
+
+/* general elements */
+.centralized{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+    height: auto;
+   
+}
+
+/* media elements */
+
+img.centralized{
+	display: block;
+}
+img.leave-alone{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: right;
+	margin: 0 auto;
+    padding: 0px 100px 5px 50px;
+}
+audio{
+	position: fixed;
+	top: 0;
+	max-height: 25px;
+}
